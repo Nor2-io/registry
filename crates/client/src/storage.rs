@@ -17,9 +17,6 @@ use warg_protocol::{
     ProtoEnvelope, SerdeEnvelope, Version,
 };
 
-mod fs;
-pub use fs::*;
-
 /// Trait for registry storage implementations.
 ///
 /// Stores information such as package/operator logs and checkpoints
